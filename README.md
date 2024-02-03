@@ -10,4 +10,4 @@
 ###### Длинная арифметика(big_integer): ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/C%2B%2B/bigint))
 ###### socow-vector(std::vector с оптимизацией small-object/copy-on-write): ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/C%2B%2B/socow-vector))
 ###### std::list(экзамен): ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/C%2B%2B/list-exam))
-###### std::cycle_buffer: ([условия](https://github.com/))
+###### циклический буффер: ([условия](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/C%2B%2B/circular-buffer-exam))
