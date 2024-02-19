@@ -1,0 +1,646 @@
+The system is: Linux - 6.2.0-39-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/bitree/c++/llvm/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+# 1 "CMakeCXXCompilerId.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 404 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "CMakeCXXCompilerId.cpp" 2
+# 388 "CMakeCXXCompilerId.cpp"
+char const* info_compiler = "INFO" ":" "compiler[" "Clang" "]";
+# 668 "CMakeCXXCompilerId.cpp"
+char const info_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+  ('0' + (((14) / 10000000)%10)), ('0' + (((14) / 1000000)%10)), ('0' + (((14) / 100000)%10)), ('0' + (((14) / 10000)%10)), ('0' + (((14) / 1000)%10)), ('0' + (((14) / 100)%10)), ('0' + (((14) / 10)%10)), ('0' + ((14) % 10)),
+
+  '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+   '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+
+
+
+
+  ']','\0'};
+# 717 "CMakeCXXCompilerId.cpp"
+char const* info_platform = "INFO" ":" "platform[" "Linux" "]";
+char const* info_arch = "INFO" ":" "arch[" "]";
+# 738 "CMakeCXXCompilerId.cpp"
+const char* info_language_standard_default = "INFO" ":" "standard_default["
+
+
+
+
+
+
+
+  "14"
+
+
+
+
+
+"]";
+
+const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+
+
+
+
+  "ON"
+
+
+
+"]";
+
+
+
+int main(int argc, char* argv[])
+{
+  int require = 0;
+  require += info_compiler[argc];
+  require += info_platform[argc];
+
+  require += info_version[argc];
+# 787 "CMakeCXXCompilerId.cpp"
+  require += info_language_standard_default[argc];
+  require += info_language_extensions_default[argc];
+  (void)argv;
+  return require;
+}
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+# 1 "CMakeCXXCompilerId.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 404 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "CMakeCXXCompilerId.cpp" 2
+# 388 "CMakeCXXCompilerId.cpp"
+char const* info_compiler = "INFO" ":" "compiler[" "Clang" "]";
+# 668 "CMakeCXXCompilerId.cpp"
+char const info_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+  ('0' + (((14) / 10000000)%10)), ('0' + (((14) / 1000000)%10)), ('0' + (((14) / 100000)%10)), ('0' + (((14) / 10000)%10)), ('0' + (((14) / 1000)%10)), ('0' + (((14) / 100)%10)), ('0' + (((14) / 10)%10)), ('0' + ((14) % 10)),
+
+  '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+   '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+
+
+
+
+  ']','\0'};
+# 717 "CMakeCXXCompilerId.cpp"
+char const* info_platform = "INFO" ":" "platform[" "Linux" "]";
+char const* info_arch = "INFO" ":" "arch[" "]";
+# 738 "CMakeCXXCompilerId.cpp"
+const char* info_language_standard_default = "INFO" ":" "standard_default["
+
+
+
+
+
+
+
+  "14"
+
+
+
+
+
+"]";
+
+const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+
+
+
+
+  "ON"
+
+
+
+"]";
+
+
+
+int main(int argc, char* argv[])
+{
+  int require = 0;
+  require += info_compiler[argc];
+  require += info_platform[argc];
+
+  require += info_version[argc];
+# 787 "CMakeCXXCompilerId.cpp"
+  require += info_language_standard_default[argc];
+  require += info_language_extensions_default[argc];
+  (void)argv;
+  return require;
+}
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+0
+# 1 "CMakeCXXCompilerId.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 410 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "CMakeCXXCompilerId.cpp" 2
+# 388 "CMakeCXXCompilerId.cpp"
+char const* info_compiler = "INFO" ":" "compiler[" "Clang" "]";
+# 668 "CMakeCXXCompilerId.cpp"
+char const info_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+  ('0' + (((14) / 10000000)%10)), ('0' + (((14) / 1000000)%10)), ('0' + (((14) / 100000)%10)), ('0' + (((14) / 10000)%10)), ('0' + (((14) / 1000)%10)), ('0' + (((14) / 100)%10)), ('0' + (((14) / 10)%10)), ('0' + ((14) % 10)),
+
+  '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+   '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+
+
+
+
+  ']','\0'};
+# 717 "CMakeCXXCompilerId.cpp"
+char const* info_platform = "INFO" ":" "platform[" "]";
+char const* info_arch = "INFO" ":" "arch[" "]";
+# 738 "CMakeCXXCompilerId.cpp"
+const char* info_language_standard_default = "INFO" ":" "standard_default["
+
+
+
+
+
+
+
+  "14"
+
+
+
+
+
+"]";
+
+const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+
+
+
+
+  "ON"
+
+
+
+"]";
+
+
+
+int main(int argc, char* argv[])
+{
+  int require = 0;
+  require += info_compiler[argc];
+  require += info_platform[argc];
+
+  require += info_version[argc];
+# 787 "CMakeCXXCompilerId.cpp"
+  require += info_language_standard_default[argc];
+  require += info_language_extensions_default[argc];
+  (void)argv;
+  return require;
+}
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+0
+# 1 "CMakeCXXCompilerId.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 404 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "CMakeCXXCompilerId.cpp" 2
+# 388 "CMakeCXXCompilerId.cpp"
+char const* info_compiler = "INFO" ":" "compiler[" "Clang" "]";
+# 668 "CMakeCXXCompilerId.cpp"
+char const info_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+  ('0' + (((14) / 10000000)%10)), ('0' + (((14) / 1000000)%10)), ('0' + (((14) / 100000)%10)), ('0' + (((14) / 10000)%10)), ('0' + (((14) / 1000)%10)), ('0' + (((14) / 100)%10)), ('0' + (((14) / 10)%10)), ('0' + ((14) % 10)),
+
+  '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+   '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+
+
+
+
+  ']','\0'};
+# 717 "CMakeCXXCompilerId.cpp"
+char const* info_platform = "INFO" ":" "platform[" "Linux" "]";
+char const* info_arch = "INFO" ":" "arch[" "]";
+# 738 "CMakeCXXCompilerId.cpp"
+const char* info_language_standard_default = "INFO" ":" "standard_default["
+
+
+
+
+
+
+
+  "14"
+
+
+
+
+
+"]";
+
+const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+
+
+
+
+  "ON"
+
+
+
+"]";
+
+
+
+int main(int argc, char* argv[])
+{
+  int require = 0;
+  require += info_compiler[argc];
+  require += info_platform[argc];
+
+  require += info_version[argc];
+# 787 "CMakeCXXCompilerId.cpp"
+  require += info_language_standard_default[argc];
+  require += info_language_extensions_default[argc];
+  (void)argv;
+  return require;
+}
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+# 1 "CMakeCXXCompilerId.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 404 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "CMakeCXXCompilerId.cpp" 2
+# 388 "CMakeCXXCompilerId.cpp"
+char const* info_compiler = "INFO" ":" "compiler[" "Clang" "]";
+# 668 "CMakeCXXCompilerId.cpp"
+char const info_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+  ('0' + (((14) / 10000000)%10)), ('0' + (((14) / 1000000)%10)), ('0' + (((14) / 100000)%10)), ('0' + (((14) / 10000)%10)), ('0' + (((14) / 1000)%10)), ('0' + (((14) / 100)%10)), ('0' + (((14) / 10)%10)), ('0' + ((14) % 10)),
+
+  '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+   '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+
+
+
+
+  ']','\0'};
+# 717 "CMakeCXXCompilerId.cpp"
+char const* info_platform = "INFO" ":" "platform[" "Linux" "]";
+char const* info_arch = "INFO" ":" "arch[" "]";
+# 738 "CMakeCXXCompilerId.cpp"
+const char* info_language_standard_default = "INFO" ":" "standard_default["
+
+
+
+
+
+
+
+  "14"
+
+
+
+
+
+"]";
+
+const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+
+
+
+
+  "ON"
+
+
+
+"]";
+
+
+
+int main(int argc, char* argv[])
+{
+  int require = 0;
+  require += info_compiler[argc];
+  require += info_platform[argc];
+
+  require += info_version[argc];
+# 787 "CMakeCXXCompilerId.cpp"
+  require += info_language_standard_default[argc];
+  require += info_language_extensions_default[argc];
+  (void)argv;
+  return require;
+}
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+# 1 "CMakeCXXCompilerId.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 404 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "CMakeCXXCompilerId.cpp" 2
+# 388 "CMakeCXXCompilerId.cpp"
+char const* info_compiler = "INFO" ":" "compiler[" "Clang" "]";
+# 668 "CMakeCXXCompilerId.cpp"
+char const info_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+  ('0' + (((14) / 10000000)%10)), ('0' + (((14) / 1000000)%10)), ('0' + (((14) / 100000)%10)), ('0' + (((14) / 10000)%10)), ('0' + (((14) / 1000)%10)), ('0' + (((14) / 100)%10)), ('0' + (((14) / 10)%10)), ('0' + ((14) % 10)),
+
+  '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+   '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+
+
+
+
+  ']','\0'};
+# 717 "CMakeCXXCompilerId.cpp"
+char const* info_platform = "INFO" ":" "platform[" "Linux" "]";
+char const* info_arch = "INFO" ":" "arch[" "]";
+# 738 "CMakeCXXCompilerId.cpp"
+const char* info_language_standard_default = "INFO" ":" "standard_default["
+
+
+
+
+
+
+
+  "14"
+
+
+
+
+
+"]";
+
+const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+
+
+
+
+  "ON"
+
+
+
+"]";
+
+
+
+int main(int argc, char* argv[])
+{
+  int require = 0;
+  require += info_compiler[argc];
+  require += info_platform[argc];
+
+  require += info_version[argc];
+# 787 "CMakeCXXCompilerId.cpp"
+  require += info_language_standard_default[argc];
+  require += info_language_extensions_default[argc];
+  (void)argv;
+  return require;
+}
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+0
+# 1 "CMakeCXXCompilerId.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 410 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "CMakeCXXCompilerId.cpp" 2
+# 388 "CMakeCXXCompilerId.cpp"
+char const* info_compiler = "INFO" ":" "compiler[" "Clang" "]";
+# 668 "CMakeCXXCompilerId.cpp"
+char const info_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+  ('0' + (((14) / 10000000)%10)), ('0' + (((14) / 1000000)%10)), ('0' + (((14) / 100000)%10)), ('0' + (((14) / 10000)%10)), ('0' + (((14) / 1000)%10)), ('0' + (((14) / 100)%10)), ('0' + (((14) / 10)%10)), ('0' + ((14) % 10)),
+
+  '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+   '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+
+
+
+
+  ']','\0'};
+# 717 "CMakeCXXCompilerId.cpp"
+char const* info_platform = "INFO" ":" "platform[" "]";
+char const* info_arch = "INFO" ":" "arch[" "]";
+# 738 "CMakeCXXCompilerId.cpp"
+const char* info_language_standard_default = "INFO" ":" "standard_default["
+
+
+
+
+
+
+
+  "14"
+
+
+
+
+
+"]";
+
+const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+
+
+
+
+  "ON"
+
+
+
+"]";
+
+
+
+int main(int argc, char* argv[])
+{
+  int require = 0;
+  require += info_compiler[argc];
+  require += info_platform[argc];
+
+  require += info_version[argc];
+# 787 "CMakeCXXCompilerId.cpp"
+  require += info_language_standard_default[argc];
+  require += info_language_extensions_default[argc];
+  (void)argv;
+  return require;
+}
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+0
+# 1 "CMakeCXXCompilerId.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 404 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "CMakeCXXCompilerId.cpp" 2
+# 388 "CMakeCXXCompilerId.cpp"
+char const* info_compiler = "INFO" ":" "compiler[" "Clang" "]";
+# 668 "CMakeCXXCompilerId.cpp"
+char const info_version[] = {
+  'I', 'N', 'F', 'O', ':',
+  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+  ('0' + (((14) / 10000000)%10)), ('0' + (((14) / 1000000)%10)), ('0' + (((14) / 100000)%10)), ('0' + (((14) / 10000)%10)), ('0' + (((14) / 1000)%10)), ('0' + (((14) / 100)%10)), ('0' + (((14) / 10)%10)), ('0' + ((14) % 10)),
+
+  '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+   '.', ('0' + (((0) / 10000000)%10)), ('0' + (((0) / 1000000)%10)), ('0' + (((0) / 100000)%10)), ('0' + (((0) / 10000)%10)), ('0' + (((0) / 1000)%10)), ('0' + (((0) / 100)%10)), ('0' + (((0) / 10)%10)), ('0' + ((0) % 10)),
+
+
+
+
+
+  ']','\0'};
+# 717 "CMakeCXXCompilerId.cpp"
+char const* info_platform = "INFO" ":" "platform[" "Linux" "]";
+char const* info_arch = "INFO" ":" "arch[" "]";
+# 738 "CMakeCXXCompilerId.cpp"
+const char* info_language_standard_default = "INFO" ":" "standard_default["
+
+
+
+
+
+
+
+  "14"
+
+
+
+
+
+"]";
+
+const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+
+
+
+
+  "ON"
+
+
+
+"]";
+
+
+
+int main(int argc, char* argv[])
+{
+  int require = 0;
+  require += info_compiler[argc];
+  require += info_platform[argc];
+
+  require += info_version[argc];
+# 787 "CMakeCXXCompilerId.cpp"
+  require += info_language_standard_default[argc];
+  require += info_language_extensions_default[argc];
+  (void)argv;
+  return require;
+}
+
+

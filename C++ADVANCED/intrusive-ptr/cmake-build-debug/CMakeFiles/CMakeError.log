@@ -1,0 +1,57 @@
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" did not produce an executable in "/home/bitree/c++/llvm/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdCXX".
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" did not produce an executable in "/home/bitree/c++/llvm/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdCXX".
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+clang: error: unsupported option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+clang: error: unsupported option '--ec++'
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" did not produce an executable in "/home/bitree/c++/llvm/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdCXX".
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" did not produce an executable in "/home/bitree/c++/llvm/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdCXX".
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" did not produce an executable in "/home/bitree/c++/llvm/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdCXX".
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" did not produce an executable in "/home/bitree/c++/llvm/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdCXX".
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+clang: error: unsupported option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang-cpp-14 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+clang: error: unsupported option '--ec++'
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" did not produce an executable in "/home/bitree/c++/llvm/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdCXX".
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" did not produce an executable in "/home/bitree/c++/llvm/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdCXX".
+
+Checking whether the CXX compiler is IAR using "" terminated after 10 s due to timeout.
