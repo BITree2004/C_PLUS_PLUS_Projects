@@ -1,0 +1,5 @@
+FIRST PART PASSED AS: ((w)+(1))^(2)
+SECOND PART PASSED AS: (((w)^(2))+((2)*(w)))+(1)
+FIRST PART PASSED AS: ((((w)^(((w)^(0))*(2)))*(1))+(((w)^(((w)^(0))*(1)))*(1)))+(((w)^(0))*(1))
+SECOND PART PASSED AS: ((((w)^(((w)^(0))*(2)))*(1))+(((w)^(((w)^(0))*(1)))*(1)))+(((w)^(0))*(1))
+EQUAL!

@@ -1,0 +1,3 @@
+/home/bitree/c++/matlog/cmake-build-debug/CMakeFiles/matlog.dir
+/home/bitree/c++/matlog/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bitree/c++/matlog/cmake-build-debug/CMakeFiles/rebuild_cache.dir
