@@ -28,5 +28,5 @@
 
 ## Матлогика
 Курс подготовил и прочитал [Дмитрий Штукенберг](https://github.com/shd) в ITMO в 2023 году (year2022, 3 семестр).
-###### ordinal-calculator(обязательная лаба для топовых групп - 38-39): ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/mathlogic/ordinal-calculator))
+###### ordinal-calculator с использованием bison parser generator (обязательная лаба для топовых групп - 38-39): ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/mathlogic/ordinal-calculator))
 
