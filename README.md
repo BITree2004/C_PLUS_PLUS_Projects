@@ -30,3 +30,8 @@
 Курс подготовил и прочитал [Дмитрий Штукенберг](https://github.com/shd) в ITMO в 2023 году (year2022, 3 семестр).
 ###### ordinal-calculator с использованием bison parser generator (обязательная лаба для топовых групп - 38-39): ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/mathlogic/ordinal-calculator))
 
+## Opencl
+Курс подготовил и прочитал [Скаков Павел Сергеевич] в ITMO в 2024 году (year2022, 4 семестр). Код написан для видеокарточек на opencl!
+###### умножение матриц: ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/Opencl/gpu24-ocl-matmul))
+###### префиксные суммы: (скоро будет)
+###### 3 лаба: (скоро будет)
