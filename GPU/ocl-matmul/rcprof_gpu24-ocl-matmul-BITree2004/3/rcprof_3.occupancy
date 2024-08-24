@@ -1,0 +1,7 @@
+# ProfilerVersion=5.5.6980
+# Application=C:/Users/Admin/Desktop/OCL-MatMul/Release/ocl1.exe
+# ApplicationArgs=--input ../tests/in/in2.txt --output ../tests/out/out__2.txt --realization 3 --device-type all --device-index 0
+# ListSeparator=,
+# KernelCount=1
+Thread ID,Kernel Name,Device Name,Number of compute units,Max. number of wavefronts per CU,Max. number of work-group per CU,Max. number of VGPR,Max. number of SGPR,Max. amount of LDS,Number of VGPR used,Number of SGPR used,Amount of LDS used,Size of wavefront,Work-group size,Wavefronts per work-group,Max work-group size,Max wavefronts per work-group,Global work size,Maximum global work size,Nbr VGPR-limited waves,Nbr SGPR-limited waves,Nbr LDS-limited waves,Nbr of WG-limited waves,Kernel occupancy,Graphics IP Version,Number of SIMDs per CU
+3184,mul,Hawaii,40,40,16,256,104,65536,256,23,16896,64,256,4,256,4,65536,1073741824,4,40,12,40,10,7,4

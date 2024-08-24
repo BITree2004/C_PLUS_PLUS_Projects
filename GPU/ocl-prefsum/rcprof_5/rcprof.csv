@@ -1,0 +1,24 @@
+#ProfileFileVersion=5.6
+#ProfilerVersion=5.6.0
+#API=OpenCL
+#Application=C:/Users/ocl_user24_0/TEST/skkv-mp-gpu/actions-runner/_work/gpu24-ocl-prefsum-BITree2004/gpu24-ocl-prefsum-BITree2004/__test.exe
+#ApplicationArgs=--input ../../../../../prefix_sum_tests/in5.txt --output test_data/out_5.txt --device-type all --device-index 0
+#WorkingDirectory=.
+#Device gfx1010 Platform Vendor=Advanced Micro Devices, Inc.
+#Device gfx1010 Platform Name=AMD Accelerated Parallel Processing
+#Device gfx1010 Platform Version=OpenCL 2.1 AMD-APP (3004.8)
+#Device gfx1010 CLDriver Version=3004.8 (PAL,LC)
+#Device gfx1010 CLRuntime Version=OpenCL 2.0 AMD-APP (3004.8)
+#Device gfx1010 NumberAppAddressBits=64
+#Device gfx1010 Board Name=AMD Radeon RX 5700 XT
+#Device gfx1010 PCIE device id=29471
+#OS Version=Windows 10 Build 10.0.0
+#DisplayName=prefsum_prof
+#ListSeparator=;
+#ForceSinglePass=False
+Method; ExecutionOrder; ThreadID; CallIndex; GlobalWorkSize; WorkGroupSize; Time; LocalMemSize; VGPRs; SGPRs; ScratchRegs; Wavefronts; VALUInsts; SALUInsts; VFetchInsts; SFetchInsts; VWriteInsts; LDSInsts; GDSInsts; VALUUtilization; VALUBusy; SALUBusy; FetchSize; WriteSize; L0CacheHit; L1CacheHit; L2CacheHit; MemUnitBusy; MemUnitStalled; WriteUnitStalled; LDSBankConflict
+scanner__k1_gfx10101; 1; 6760; 27; {33554432       1       1}; {  256     1     1};         4,49984; 2176; 10; 35; 0;   1048576,00;        74,63;        44,88;        19,00;         2,00;         0,00;        20,00;         0,00;        71,72;        17,50;        20,49;    262147,19;    262656,50;         0,00;         0,00;        34,64;        89,98;         0,00;         0,04;         3,66
+scanner__k1_gfx10101; 2; 6760; 31; {  65536       1       1}; {  256     1     1};         0,01272; 2176; 10; 35; 0;      2048,00;        74,63;        44,88;        19,00;         2,00;         0,00;        20,00;         0,00;        71,72;         6,36;         7,45;       515,00;       513,50;         0,00;         0,00;        38,85;        34,81;         0,00;         1,08;         1,87
+scanner__k1_gfx10101; 3; 6760; 35; {    256       1       1}; {  256     1     1};         0,00628; 2176; 10; 35; 0;         8,00;        74,25;        44,13;        19,00;         2,00;         0,00;        19,88;         0,00;        72,06;         0,04;         0,04;         5,00;         2,50;         0,00;         0,00;        40,43;         2,37;         0,00;         0,00;         0,01
+scanner_back__k2_gfx10101; 4; 6760; 39; {  65536       1       1}; {  256     1     1};         0,00564; 0; 5; 35; 0;      2048,00;        10,96;        10,97;         0,00;         3,98;         0,00;         0,00;         0,00;       100,00;         1,55;         2,64;       511,63;       510,50;         0,00;         1,62;        67,03;        19,95;         0,00;         2,41;         0,00
+scanner_back__k2_gfx10101; 5; 6760; 43; {33554432       1       1}; {  256     1     1};         1,83136; 0; 5; 35; 0;   1048576,00;        11,00;        11,00;         0,00;         4,00;         0,00;         0,00;         0,00;       100,00;         7,17;        12,13;    262654,63;    262142,50;         0,00;         1,74;        66,69;        99,00;         0,00;         2,19;         0,00

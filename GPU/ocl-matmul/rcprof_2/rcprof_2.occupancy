@@ -1,0 +1,7 @@
+# ProfilerVersion=5.6.0
+# Application=C:/Users/ocl_user24_0/TEST/skkv-mp-gpu/actions-runner/_work/gpu24-ocl-matmul-BITree2004/gpu24-ocl-matmul-BITree2004/__test.exe
+# ApplicationArgs=--input test_data/in0.txt --output test_data/out_0.txt --realization 2 --device-type all --device-index 0
+# ListSeparator=;
+# KernelCount=1
+Thread ID;Kernel Name;Device Name;Number of compute units;Max. number of wavefronts per CU;Max. number of work-group per CU;Max. number of VGPR;Max. number of SGPR;Max. amount of LDS;Number of VGPR used;Number of SGPR used;Amount of LDS used;Size of wavefront;Work-group size;Wavefronts per work-group;Max work-group size;Max wavefronts per work-group;Global work size;Maximum global work size;Nbr VGPR-limited waves;Nbr SGPR-limited waves;Nbr LDS-limited waves;Nbr of WG-limited waves;Kernel occupancy;Graphics IP Version;Number of SIMDs per CU
+9792;mul;gfx1010;20;40;16;1024;104;65536;48;35;2048;64;256;4;256;4;4194304;1073741824;40;32;40;40;80;10;2

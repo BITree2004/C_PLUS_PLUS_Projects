@@ -1,0 +1,20 @@
+#ProfileFileVersion=5.5
+#ProfilerVersion=5.5.6980
+#API=OpenCL
+#Application=C:/Users/Admin/Desktop/OCL-MatMul/Release/ocl1.exe
+#ApplicationArgs=--input ../tests/in/in2.txt --output ../tests/out/out__2.txt --realization 2 --device-type all --device-index 0
+#WorkingDirectory=.
+#Device Hawaii Platform Vendor=Advanced Micro Devices, Inc.
+#Device Hawaii Platform Name=AMD Accelerated Parallel Processing
+#Device Hawaii Platform Version=OpenCL 2.1 AMD-APP (3075.13)
+#Device Hawaii CLDriver Version=3075.13
+#Device Hawaii CLRuntime Version=OpenCL 1.2 AMD-APP (3075.13)
+#Device Hawaii NumberAppAddressBits=32
+#Device Hawaii Board Name=AMD Radeon (TM) R9 390 Series
+#Device Hawaii PCIE device id=26545
+#OS Version=Windows 10 Build 10.0.0
+#DisplayName=
+#ListSeparator=,
+#ForceSinglePass=False
+Method, ExecutionOrder, ThreadID, CallIndex, GlobalWorkSize, WorkGroupSize, Time, LocalMemSize, VGPRs, SGPRs, ScratchRegs, Wavefronts, VALUInsts, SALUInsts, VFetchInsts, SFetchInsts, VWriteInsts, FlatVMemInsts, LDSInsts, FlatLDSInsts, GDSInsts, VALUUtilization, VALUBusy, SALUBusy, FetchSize, WriteSize, CacheHit, MemUnitBusy, MemUnitStalled, WriteUnitStalled, LDSBankConflict
+mul__k1_Hawaii1, 1, 1940, 27, {   2048    2048       1}, {   16    16     1},        15.07837, 2048, 29, 19, 0,     65536.00,      2579.00,       271.00,       256.00,         5.00,         1.00,         0.00,      2304.00,         0.00,         0.00,       100.00,        27.80,        11.67,   2168684.19,     16448.09,        48.04,        27.10,         0.02,         0.00,         0.00
