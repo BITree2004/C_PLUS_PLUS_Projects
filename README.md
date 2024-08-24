@@ -31,7 +31,7 @@
 ###### ordinal-calculator с использованием bison parser generator (обязательная лаба для топовых групп - 38-39): ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/mathlogic/ordinal-calculator))
 
 ## Opencl
-Курс подготовил и прочитал [Скаков Павел Сергеевич] в ITMO в 2024 году (year2022, 4 семестр). Код написан для видеокарточек на opencl!
+Курс подготовил и прочитал [Скаков Павел Сергеевич](https://github.com/skkv-mp) в ITMO в 2024 году (year2022, 4 семестр). Код написан для видеокарточек на opencl!
 ###### умножение матриц: ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/GPU/ocl-matmul))
 ###### префиксная сумма: ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/GPU/ocl-prefsum))
 
