@@ -32,3 +32,6 @@
 
 ## Opencl
 Курс подготовил и прочитал [Скаков Павел Сергеевич] в ITMO в 2024 году (year2022, 4 семестр). Код написан для видеокарточек на opencl!
+###### умножение матриц: ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/GPU/ocl-matmul))
+###### префиксная сумма: ([условия и решение](https://github.com/BITree2004/C_PLUS_PLUS_Projects/tree/main/GPU/ocl-prefsum))
+
